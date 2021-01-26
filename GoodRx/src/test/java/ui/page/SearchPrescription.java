@@ -30,5 +30,5 @@ public class SearchPrescription extends PageHelper {
 	public void medicare() {
 		clickOnElement(clickOnMedicareLink);
 	}
-
+//TODO
 }
