@@ -20,15 +20,17 @@ public class SearchPrescription extends PageHelper {
 
 	public void searchField() {
 		setField(clickOnSearchField, "zanamivir");
+		selectByVisibleText(clickOnSearchField, "zanamivir");
 		//TODO
 	}
 	
 	public void searchButtton() {
-		hoverOver(clickOnSearchButton);
+		//hoverOver(clickOnSearchButton);
+		clickOnElement(clickOnSearchButton);
 	}
 
 	public void medicare() {
 		clickOnElement(clickOnMedicareLink);
 	}
-//TODO
+//
 }
